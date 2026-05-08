@@ -1,0 +1,24 @@
+# Visual Studio build outputs
+Debug/
+Release/
+x64/
+x86/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+.vs/
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# MSBuild
+*.obj
+*.pch
+*.idb
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
