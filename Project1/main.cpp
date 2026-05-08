@@ -1,10 +1,12 @@
 #include <iostream>
-#include "ConsoleHelper.h"
+#define NOMINMAX
+#include <windows.h>
 #include "InputHelper.h"
 #include "MonitoringMenu.h"
 
 int main() {
-    initConsole();
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
 
     while (true) {
         std::cout << "\n=== 반도체 시료 생산 관리 시스템 ===\n"
@@ -23,7 +25,7 @@ int main() {
             runMonitoringMenu();
             break;
         case 0:
-            std::cout << "종료합니다.\n" << RESET;
+            std::cout << "종료합니다.\n";
             return 0;
         case -1:
             std::cout << "잘못된 입력입니다.\n";

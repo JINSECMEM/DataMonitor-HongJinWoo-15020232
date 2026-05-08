@@ -145,7 +145,6 @@
     <ClInclude Include="SampleStore.h" />
     <ClInclude Include="MonitoringMenu.h" />
     <ClInclude Include="InputHelper.h" />
-    <ClInclude Include="ConsoleHelper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
